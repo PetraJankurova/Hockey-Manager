@@ -1,6 +1,6 @@
 import java.util.List;
 
-//has a list of players 
+//has a list of players
 
 public class PlayerList {
 

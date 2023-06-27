@@ -40,7 +40,7 @@ public class HockeyManager {
         if (youngestPlayer == null) {
             return;
         }
-        System.out.println("youngest player: " + youngestPlayer.getName() + " " + youngestPlayer.getAge());
+        System.out.println("youngest player: " + youngestPlayer.getName() + ", age " + youngestPlayer.getAge());
     }
 
 }
