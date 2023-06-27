@@ -13,9 +13,22 @@ public class Main {
         hockeyManager.AddNewGoalie("Philipp Grubauer", 31, 31);
         hockeyManager.AddNewForward("David Pastrnak", 27, 88);
 
+        System.out.println("TEAM 1");
         playerList.printList();
-        System.out.println();
         hockeyManager.PrintNameAndAgeOfTheYoungestPlayer();
+        System.out.println();
+
+
+        List<Player> list2 = new LinkedList<>();
+        PlayerList playerList2 = new PlayerList(list2);
+        HockeyManager hockeyManager2 = new HockeyManager(playerList2);
+        hockeyManager2.AddNewForward("Laura Lukoviny", 24, 6);
+        hockeyManager2.AddNewDefender("Eva Mária Moleková", 23, 11);
+
+        System.out.println("TEAM 2");
+        playerList2.printList();
+        hockeyManager2.PrintNameAndAgeOfTheYoungestPlayer();
+        System.out.println();
 
     }
 }
