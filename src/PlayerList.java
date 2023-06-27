@@ -1,5 +1,7 @@
 import java.util.List;
 
+//has a list of players 
+
 public class PlayerList {
 
     private List<Player> listOfPlayers;
@@ -8,19 +10,21 @@ public class PlayerList {
         this.listOfPlayers = listOfPlayers;
     }
 
-
+    //add new player to the list
     void addPlayer(Player player) {
 
         listOfPlayers.add(player);
 
     }
 
+    //print error message
     private void printErrorEmptyList() {
 
         System.out.println("List of Players is EMPTY");
 
     }
 
+    //print contents of list
     void printList() {
         if (listOfPlayers.isEmpty()) {
             printErrorEmptyList();
@@ -45,6 +49,7 @@ public class PlayerList {
         }
     }
 
+    //find youngest player in the list
     Player findYoungestPlayer() {
         if (listOfPlayers.isEmpty()) {
             printErrorEmptyList();

@@ -1,4 +1,7 @@
-public class Player {
+//abstract class for Player
+//has name and age
+
+public abstract class Player {
 
     private String name;
     private int age;

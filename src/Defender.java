@@ -1,3 +1,6 @@
+//player of type Defender
+//has name, age from Player + number of hits
+
 public class Defender extends Player {
 
     private String name;

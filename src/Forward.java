@@ -1,3 +1,6 @@
+//player of type Forward
+//has name, age from Player + number of goals
+
 public class Forward extends Player{
 
     private String name;

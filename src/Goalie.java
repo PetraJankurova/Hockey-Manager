@@ -1,3 +1,6 @@
+//player of type Goalie
+//has name, age from Player + number of wins
+
 public class Goalie extends Player {
 
     private String name;
